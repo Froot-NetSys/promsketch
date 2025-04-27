@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/zzylol/prometheus-sketch-VLDB/prometheus-sketches/model/labels"
+	"github.com/zzylol/prometheus-sketches/model/labels"
 )
 
 // String represents a string value.

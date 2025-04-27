@@ -15,7 +15,7 @@ import (
 
 	"github.com/shirou/gopsutil/v3/mem"
 	"github.com/stretchr/testify/require"
-	"github.com/zzylol/prometheus-sketch-VLDB/prometheus-sketches/model/labels"
+	"github.com/zzylol/prometheus-sketches/model/labels"
 )
 
 func TestNewSketchCacheInstance(t *testing.T) {
