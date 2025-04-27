@@ -15,6 +15,7 @@ require (
 	github.com/zzylol/VictoriaMetrics-sketches v0.1.0
 	github.com/zzylol/go-kll v0.0.1
 	github.com/zzylol/prometheus-sketch-VLDB/prometheus-sketches v0.0.0-20241028182337-4e9ac2e3497b
+	github.com/zzylol/prometheus-sketch-VLDB/uniform-sampling-caching/prometheus v0.0.0-20240923164734-ca52c3f57828
 )
 
 require (

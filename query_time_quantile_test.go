@@ -97,9 +97,9 @@ func readZipfFloat() {
 }
 
 // example usage:
-// go test -v -timeout 0 -run ^TestQueryTimeQuantile$ github.com/froot-netsys/promsketch -dataset=Zipf
-// go test -v -timeout 0 -run ^TestQueryTimeQuantile$ github.com/froot-netsys/promsketch -dataset=Uniform
-// go test -v -timeout 0 -run ^TestQueryTimeQuantile$ github.com/froot-netsys/promsketch -dataset=Google2019
+// go test -v -timeout 0 -run ^TestQueryTimeQuantile$ github.com/zzylol/promsketch -dataset=Zipf
+// go test -v -timeout 0 -run ^TestQueryTimeQuantile$ github.com/zzylol/promsketch -dataset=Uniform
+// go test -v -timeout 0 -run ^TestQueryTimeQuantile$ github.com/zzylol/promsketch -dataset=Google2019
 func TestQueryTimeQuantile(t *testing.T) {
 	total_length := int64(20000000)
 	// sliding_window_sizes := []int64{10000, 100000, 1000000, 10000000}

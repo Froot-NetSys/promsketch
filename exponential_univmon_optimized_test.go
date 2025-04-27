@@ -203,10 +203,10 @@ func init() {
 // Test cost (compute + memory) and accuracy under sliding window
 // Example command:
 //
-// go test -v -timeout 0 -run ^TestExpoHistogramUnivMonOptimized$ github.com/froot-netsys/promsketch -dataset=CAIDA2019
-// go test -v -timeout 0 -run ^TestExpoHistogramUnivMonOptimized$ github.com/froot-netsys/promsketch -dataset=CAIDA2018
-// go test -v -timeout 0 -run ^TestExpoHistogramUnivMonOptimized$ github.com/froot-netsys/promsketch -dataset=Uniform
-// go test -v -timeout 0 -run ^TestExpoHistogramUnivMonOptimized$ github.com/froot-netsys/promsketch -dataset=Zipf
+// go test -v -timeout 0 -run ^TestExpoHistogramUnivMonOptimized$ github.com/zzylol/promsketch -dataset=CAIDA2019
+// go test -v -timeout 0 -run ^TestExpoHistogramUnivMonOptimized$ github.com/zzylol/promsketch -dataset=CAIDA2018
+// go test -v -timeout 0 -run ^TestExpoHistogramUnivMonOptimized$ github.com/zzylol/promsketch -dataset=Uniform
+// go test -v -timeout 0 -run ^TestExpoHistogramUnivMonOptimized$ github.com/zzylol/promsketch -dataset=Zipf
 func TestExpoHistogramUnivMonOptimized(t *testing.T) {
 
 	// query_window_size_input := []int64{1000000, 100000, 10000}
