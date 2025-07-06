@@ -1,8 +1,11 @@
-# promsketch
+<h1 align="center">PromSketch</h1>
 
-This repository provides PromSketch package for Prometheus and VictoriaMetrics.
+## About
+
+This repository provides PromSketch package for Prometheus and VictoriaMetrics integrations.
 
 
+## Quick Start
 ### Install Dependencies
 ```
 # installs Golang
@@ -60,3 +63,14 @@ make vmalert
 
 ### Integration with VictoriaMetrics Cluster version
 https://github.com/zzylol/VictoriaMetrics-cluster
+
+## Citation
+Please consider citing this work if you find the repository helpful.
+```
+@article{zhu2025approximation,
+  title={Approximation-First Timeseries Monitoring Query At Scale},
+  author={Zhu, Zeying and Chamberlain, Jonathan and Wu, Kenny and Starobinski, David and Liu, Zaoxing},
+  journal={arXiv preprint arXiv:2505.10560},
+  year={2025}
+}
+```
