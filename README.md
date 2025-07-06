@@ -1,4 +1,4 @@
-<h1 align="center">PromSketch</h1>
+<h1 align="center">PromSketch: Approximation-First Timeseries Qery At Scale</h1>
 
 ## About
 
