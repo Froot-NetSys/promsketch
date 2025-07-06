@@ -9,8 +9,7 @@ PromSketch is an approximation-first timeseries query framework serving as inter
 
 PromSketch combines approximate window-based query frameworks, e.g., Exponential Historgrams, and sketch-based precomputation as algorithmic building blocks. It can serve as a plugin to Prometheus and VictoriaMetrics, two representative cloud monitoring systems, and significantly reduces query latency operational dollar costs.
 
-
-This repository provides PromSketch package for Prometheus and VictoriaMetrics integrations.
+Check out our PromSketch [demo](https://github.com/Froot-NetSys/PromSketch-Demo) here!
 
 ## Quick Start
 ### Install Dependencies
@@ -81,3 +80,8 @@ Please consider citing this work if you find the repository helpful.
   year={2025}
 }
 ```
+
+## Contact
+Feel free to raise issues or contact us if you have any questions or suggestions. You can reach us at:
+* Zeying Zhu (zeyingz@umd.edu)
+* Alan Zaoxing Liu (zaoxing@umd.edu)
