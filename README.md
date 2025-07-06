@@ -2,6 +2,8 @@
 
 ## About
 
+<p align="center"> <img src="./doc/images/prometheus_diagram.png" alt="" width="600"> </p>
+
 This repository provides PromSketch package for Prometheus and VictoriaMetrics integrations.
 
 
