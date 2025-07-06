@@ -1,11 +1,16 @@
 <h1 align="center">PromSketch: Approximation-First Timeseries Qery At Scale</h1>
 
+
 ## About
+
+PromSketch is an approximation-first timeseries query framework serving as intermediate result caches for cloud telemetry systems. It eliminates two major query bottlnecks in window-based aggregation queries, i.e., 1) repeated data scans, and 2) repeated query computation concerning window overlaps in rule queries. 
 
 <p align="center"> <img src="./doc/images/prometheus_diagram.png" alt="" width="600"> </p>
 
-This repository provides PromSketch package for Prometheus and VictoriaMetrics integrations.
+PromSketch combines approximate window-based query frameworks, e.g., Exponential Historgrams, and sketch-based precomputation as algorithmic building blocks. It can serve as a plugin to Prometheus and VictoriaMetrics, two representative cloud monitoring systems, and significantly reduces query latency operational dollar costs.
 
+
+This repository provides PromSketch package for Prometheus and VictoriaMetrics integrations.
 
 ## Quick Start
 ### Install Dependencies
