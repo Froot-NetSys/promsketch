@@ -11,6 +11,8 @@ PromSketch combines approximate window-based query frameworks, e.g., Exponential
 
 Check out our PromSketch [demo](https://youtu.be/skoXfeZZj4I) here!
 
+![Demo](short_demo.gif)
+
 ## Quick Start
 ### Install Dependencies
 ```
