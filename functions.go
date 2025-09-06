@@ -198,7 +198,7 @@ func funcStdvarOverTime(ctx context.Context, series *memSeries, c float64, t1, t
 }
 
 func funcEntropyOverTime(ctx context.Context, series *memSeries, c float64, t1, t2, t int64) Vector {
-	merged_univ, m, n, err := series.sketchInstances.ehuniv.QueryIntervalMergeUniv(t-t2, t-t1, t)
+	merged_univ, m, n, err := series.sketchInstances.ehuniv.QueryIntervalMergeUniv(t1, t2, t)
 	if err != nil {
 		return make(Vector, 0)
 	}
@@ -216,7 +216,7 @@ func funcEntropyOverTime(ctx context.Context, series *memSeries, c float64, t1, 
 }
 
 func funcCardOverTime(ctx context.Context, series *memSeries, c float64, t1, t2, t int64) Vector {
-	merged_univ, m, _, err := series.sketchInstances.ehuniv.QueryIntervalMergeUniv(t-t2, t-t1, t)
+	merged_univ, m, _, err := series.sketchInstances.ehuniv.QueryIntervalMergeUniv(t1, t2, t)
 	if err != nil {
 		return make(Vector, 0)
 	}
@@ -232,7 +232,7 @@ func funcCardOverTime(ctx context.Context, series *memSeries, c float64, t1, t2,
 }
 
 func funcL1OverTime(ctx context.Context, series *memSeries, c float64, t1, t2, t int64) Vector {
-	merged_univ, m, _, err := series.sketchInstances.ehuniv.QueryIntervalMergeUniv(t-t2, t-t1, t)
+	merged_univ, m, _, err := series.sketchInstances.ehuniv.QueryIntervalMergeUniv(t1, t2, t)
 	if err != nil {
 		return make(Vector, 0)
 	}
@@ -249,7 +249,7 @@ func funcL1OverTime(ctx context.Context, series *memSeries, c float64, t1, t2, t
 }
 
 func funcL2OverTime(ctx context.Context, series *memSeries, c float64, t1, t2, t int64) Vector {
-	merged_univ, m, _, err := series.sketchInstances.ehuniv.QueryIntervalMergeUniv(t-t2, t-t1, t)
+	merged_univ, m, _, err := series.sketchInstances.ehuniv.QueryIntervalMergeUniv(t1, t2, t)
 	if err != nil {
 		return make(Vector, 0)
 	}
