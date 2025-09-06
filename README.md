@@ -1,4 +1,4 @@
-<h1 align="center">PromSketch: Approximation-First Timeseries Query At Scale</h1>
+<h1 align="center">PromSketch: Approximation-First Timeseries Query at Scale</h1>
 
 
 ## About
