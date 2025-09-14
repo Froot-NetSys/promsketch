@@ -76,10 +76,14 @@ https://github.com/zzylol/VictoriaMetrics-cluster
 Please consider citing this work if you find the repository helpful.
 ```
 @article{zhu2025approximation,
-  title={Approximation-First Timeseries Monitoring Query At Scale},
+  title={Approximation-First Timeseries Query At Scale},
   author={Zhu, Zeying and Chamberlain, Jonathan and Wu, Kenny and Starobinski, David and Liu, Zaoxing},
-  journal={arXiv preprint arXiv:2505.10560},
-  year={2025}
+  journal={Proceedings of the VLDB Endowment},
+  volume={18},
+  number={8},
+  pages={2348--2361},
+  year={2025},
+  publisher={VLDB Endowment}
 }
 ```
 
