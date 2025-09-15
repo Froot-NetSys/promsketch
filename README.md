@@ -1,4 +1,4 @@
-<h1 align="center">PromSketch: Approximation-First Timeseries Qery At Scale</h1>
+<h1 align="center">PromSketch: Approximation-First Timeseries Query at Scale</h1>
 
 
 ## About
@@ -9,7 +9,7 @@ PromSketch is an approximation-first timeseries query framework serving as inter
 
 PromSketch combines approximate window-based query frameworks, e.g., Exponential Historgrams, and sketch-based precomputation as algorithmic building blocks. It can serve as a plugin to Prometheus and VictoriaMetrics, two representative cloud monitoring systems, and significantly reduces query latency operational dollar costs.
 
-Check out our PromSketch [demo](https://youtu.be/skoXfeZZj4I) here!
+Check out our PromSketch [demo](https://youtu.be/skoXfeZZj4I) and [paper](https://www.vldb.org/pvldb/vol18/p2348-zhu.pdf) here!
 
 ![Demo](GIF_demo.gif)
 
@@ -76,10 +76,14 @@ https://github.com/zzylol/VictoriaMetrics-cluster
 Please consider citing this work if you find the repository helpful.
 ```
 @article{zhu2025approximation,
-  title={Approximation-First Timeseries Monitoring Query At Scale},
+  title={Approximation-First Timeseries Query At Scale},
   author={Zhu, Zeying and Chamberlain, Jonathan and Wu, Kenny and Starobinski, David and Liu, Zaoxing},
-  journal={arXiv preprint arXiv:2505.10560},
-  year={2025}
+  journal={Proceedings of the VLDB Endowment},
+  volume={18},
+  number={8},
+  pages={2348--2361},
+  year={2025},
+  publisher={VLDB Endowment}
 }
 ```
 
