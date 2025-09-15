@@ -168,7 +168,7 @@ func (m Matrix) Swap(i, j int)      { m[i], m[j] = m[j], m[i] }
 
 // ContainsSameLabelset checks if a matrix has samples with the same labelset.
 // Such a behavior is semantically undefined.
-// https://github.com/zzylol/prometheus-sketch-VLDB/prometheus-sketches/issues/4562
+// https://github.com/prometheus/prometheus/issues/4562
 func (m Matrix) ContainsSameLabelset() bool {
 	switch len(m) {
 	case 0, 1:

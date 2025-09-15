@@ -14,7 +14,6 @@ require (
 	github.com/stretchr/testify v1.9.0
 	github.com/zzylol/VictoriaMetrics-sketches v0.1.0
 	github.com/zzylol/go-kll v0.0.1
-	github.com/zzylol/prometheus-sketch-VLDB/prometheus-sketches v0.0.0-20241028182337-4e9ac2e3497b
 	github.com/zzylol/prometheus-sketches v0.0.0-20241031191629-03ae564a171d
 )
 
