@@ -295,7 +295,7 @@ func TestIndexingMemory(t *testing.T) {
 	}
 
 	since := time.Since(start)
-	t.Log("total memory: ", promcache.GetTotalMemory()/1024, "MB")
+	// t.Log("total memory: ", promcache.GetTotalMemory()/1024, "MB")
 	// t.Log("total memory: ", promcache.GetTotalMemoryEHUniv()/1024, "MB")
 
 	v, _ := mem.VirtualMemory()
