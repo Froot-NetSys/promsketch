@@ -6,7 +6,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/zzylol/prometheus-sketch-VLDB/uniform-sampling-caching/prometheus/model/labels"
+	"github.com/zzylol/prometheus-sketches/model/labels"
 )
 
 type SamplingCacheEntry struct {
