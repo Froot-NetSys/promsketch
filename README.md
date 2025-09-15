@@ -37,13 +37,13 @@ nvm install 20
 ### Run EHUniv test
 ```
 cd promsketch
-go test -v -timeout 0 -run ^TestExpoHistogramUnivMonOptimizedCAIDA$ github.com/froot/promsketch
+go test -v -timeout 0 -run ^TestExpoHistogramUnivMonOptimizedCAIDA$ github.com/froot-netsys/promsketch
 ```
 
 ### Run EHKLL test
 ```
 cd promsketch
-go test -v -timeout 0 -run ^TestCostAnalysisQuantile$ github.com/froot/promsketch
+go test -v -timeout 0 -run ^TestCostAnalysisQuantile$ github.com/froot-netsys/promsketch
 ```
 
 ### Integration with Prometheus
