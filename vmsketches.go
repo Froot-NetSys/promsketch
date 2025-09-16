@@ -6,7 +6,7 @@ import (
 	"sync/atomic"
 
 	"github.com/cespare/xxhash"
-	"github.com/zzylol/VictoriaMetrics-sketches/lib/storage"
+	"github.com/zzylol/VictoriaMetrics/lib/storage"
 )
 
 var seps = []byte{'\xff'}
