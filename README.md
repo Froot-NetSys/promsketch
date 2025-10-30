@@ -74,7 +74,7 @@ https://github.com/zzylol/VictoriaMetrics-cluster
 
 ## Citation
 Please consider citing this work if you find the repository helpful.
-```
+```bibtex
 @article{zhu2025approximation,
   title={Approximation-First Timeseries Query At Scale},
   author={Zhu, Zeying and Chamberlain, Jonathan and Wu, Kenny and Starobinski, David and Liu, Zaoxing},
