@@ -13,6 +13,8 @@ Check out our PromSketch [demo](https://youtu.be/skoXfeZZj4I) and [paper](https:
 
 ![Demo](GIF_demo.gif)
 
+We also provide a standalone PromSketch [here](https://github.com/Froot-NetSys/Promsketch-Standalone)!
+
 ## Quick Start
 ### Install Dependencies
 ```
